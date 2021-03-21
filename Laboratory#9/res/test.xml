@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students>
+	<student id = "1" name = "Иванов" course = "2" group = "1"/>
+	<student id = "4" name = "Андреев" course = "2" group = "3"/>
+	<student id = "5" name = "Николаев" course = "2" group = "3"/>
+</students>

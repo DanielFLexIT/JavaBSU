@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>App</OriginalElement>
+  <nodes>
+    <node x="10.132142857142867" y="0.0">App.Number</node>
+    <node x="35.85714285714283" y="542.0">App.App</node>
+    <node x="47.5" y="194.0">App.Fraction</node>
+    <node x="224.88214285714287" y="22.5">App.MyException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="App.App" target="App.Fraction">
+      <point x="0.0" y="-27.0" />
+      <point x="-70.5" y="149.0" />
+    </edge>
+    <edge source="App.App" target="App.Number">
+      <point x="-65.6" y="-27.0" />
+      <point x="52.25714285714284" y="522.0" />
+      <point x="26.0" y="522.0" />
+      <point x="26.0" y="169.0" />
+      <point x="29.23214285714286" y="169.0" />
+      <point x="-76.4" y="72.0" />
+    </edge>
+    <edge source="App.App" target="App.MyException">
+      <point x="65.6" y="-27.0" />
+      <point x="183.45714285714283" y="522.0" />
+      <point x="359.13214285714287" y="522.0" />
+      <point x="44.75" y="49.5" />
+    </edge>
+    <edge source="App.Fraction" target="App.MyException">
+      <point x="105.75" y="-149.0" />
+      <point x="294.25" y="169.0" />
+      <point x="269.63214285714287" y="169.0" />
+      <point x="-44.75" y="49.5" />
+    </edge>
+    <edge source="App.Fraction" target="App.Number">
+      <point x="-105.75" y="-149.0" />
+      <point x="82.75" y="169.0" />
+      <point x="105.63214285714287" y="169.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.05761407366685" x="122.4943965069134" y="197.50537477908307" />
+  <SelectedNodes>
+    <node>App.Fraction</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
